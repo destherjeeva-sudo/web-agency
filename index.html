@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WEB AGENCY</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="ICON" href="vecteezy_3d-rendering-general-user-interface-icon-concept-3d-render_55159186.png">
+</head>
+
+<body>
+  <!-- TOP ICONS -->
+<div class="top-icons">
+  <a href="https://wa.me/919790575079" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="https://www.instagram.com/paul__exe_?igsh=MXQ2cW4yd3MyamJvaQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  <a href="tel:9790575079"><i class="fa-solid fa-phone"></i></a>
+</div>
+
+<!-- 🔥 3D PROFILE (TOP LEFT CORNER) -->
+<div class="profile-3d">
+
+  <div class="card">
+
+    <div class="front">
+      <img src="IMG_20260122_185034.png">
+      <h2>JASON PAUL</h2>
+      <p>Web Developer</p>
+    </div>
+
+    <div class="back">
+
+      <h3>About Me</h3>
+      <h3>EXPERT IN</h3>
+
+      <p>HTML • CSS • JS • React • UI/UX</p>
+
+      <button onclick="sendWhatsApp(event)">Contact</button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="overlay"></div>
+
+  <div class="content">
+
+    <h1>BUILD YOUR DREAM WEBSITE 🚀</h1>
+
+    <h2 class="two">
+      HIGH CONVERTING WEBSITES FOR BUSINESS / STARTUP / SHOP /QUICK DELIVERY /
+      MODERN UI.
+    </h2>
+
+    <button onclick="scrollForm()" class="btn">
+      Get Free Consultation
+    </button>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+
+  <h2>What We Offer</h2>
+
+  <div class="grid">
+
+  <div class="card-box">
+    <h3>Business Website</h3>
+    <p>High converting company websites</p>
+  </div>
+
+  <div class="card-box">
+    <h3>Landing Pages</h3>
+    <p>Modern sales & product pages</p>
+  </div>
+
+  <div class="card-box">
+    <h3>Portfolio Design</h3>
+    <p>Personal & developer portfolios</p>
+  </div>
+
+  <div class="card-box">
+    <h3>UI/UX Design</h3>
+    <p>Clean modern user interface design</p>
+  </div>
+
+</div>
+  
+  
+
+</section>
+
+<!-- CONTACT FORM -->
+<section id="contact" class="contact">
+
+  <h2>Contact Us</h2>
+
+  <form onsubmit="sendWhatsApp(event)" class="form">
+
+    <input id="name" type="text" placeholder="Your Name" required>
+    <input id="idea" type="text" placeholder="Your Project Idea" required>
+    <input id="phone" type="text" placeholder="Phone Number" required>
+
+    <button type="submit">Send via WhatsApp 🚀</button>
+
+  </form>
+
+  <button class="email-btn" onclick="sendEmail()">
+    Send via Email 📩
+  </button>
+
+</section>
+
+<script src="script.js"></script>
+<div class="grid">
+
+  
+
+</div>
+</body>
+</html>
